@@ -1,0 +1,10 @@
+{
+  "verbose": false,
+  "delay": 300,
+  "watch": ["dist/"],
+  "ext": ".js,.json",
+  "exec": "node",
+  "env": {
+    "NODE_OPTIONS": "--no-warnings --es-module-specifier-resolution=node"
+  }
+}
