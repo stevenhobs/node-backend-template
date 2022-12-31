@@ -7,7 +7,7 @@ let res: number = add(a, b)
 
 log(`${a} + ${b} = ${res}`)
 
-print(1,false, null, 'String')
-function print(...args:any) {
+print(1, false, null, 'String')
+function print(...args: any) {
   log(...args)
 }
